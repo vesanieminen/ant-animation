@@ -4,6 +4,10 @@ A real-time 3D animation of an ant caravan walking across desert dunes, built
 with [Three.js](https://threejs.org/). No build step — a single HTML file plus
 vendored Three.js modules.
 
+**[▶ Live demo](https://vesanieminen.github.io/ant-animation/)**
+
+![Desert ants scene](docs/screenshot.png)
+
 ## What's in the scene
 
 - **Ant caravan** — 10 procedurally assembled ants (head, thorax, abdomen,
@@ -56,6 +60,7 @@ or enable `#enable-unsafe-swiftshader` and `#ignore-gpu-blocklist` in
 ```
 index.html      the whole scene (terrain, ants, props, camera, HUD)
 vendor/         Three.js r160 + OrbitControls + Sky, vendored so no CDN is needed
+docs/           screenshot used in this README
 ```
 
 ## Stop the server
